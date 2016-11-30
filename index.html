@@ -8,6 +8,26 @@
         <link rel="stylesheet" href="css/app.css">        
     </head>
     <body>
+        <div class="orbit" role="region" aria-label="Slide Terrabionic" data-orbit>
+          <ul class="orbit-container">
+            <button class="orbit-previous preview-slider-joyeria"><span class="show-for-sr">Previous Slide</span></button>
+            <button class="orbit-next next-slider-joyeria"><span class="show-for-sr">Next Slide</span></button>
+            <li class="is-active orbit-slide">
+              <img class="orbit-image" src="img/jpg/slide1.jpg" alt="Joyeria-1">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/jpg/slide1.jpg" alt="Joyeria-2">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/jpg/slide1.jpg" alt="Joyeria-3">
+            </li>            
+          </ul>
+          <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+          </nav>
+        </div>  
         <script src="js/vendor/jquery.js"></script>
         <script src="js/vendor/what-input.js"></script>
         <script src="js/vendor/foundation.js"></script>

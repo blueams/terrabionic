@@ -1,0 +1,22 @@
+
+.orbit-previous:hover, .orbit-next:hover, 
+.orbit-previous:active, .orbit-next:active, 
+.orbit-previous:focus, .orbit-next:focus{
+  background: none;
+}
+
+.next-slider-joyeria{
+    background-image: url(../img/svg/next-slider.svg);
+    background-repeat:no-repeat;
+    height: 110px;
+    width: 35px;
+    margin-right: 10%;
+}
+
+.preview-slider-joyeria{
+    background-image: url(../img/svg/preview-slider.svg);
+    background-repeat:no-repeat;
+    height: 110px;
+    width: 35px;
+    margin-left: 10%;
+}
